@@ -1,63 +1,63 @@
 [mratwork-release-neutral-noarch]
 name=MRatWork - release-neutral-noarch
 baseurl=https://kloxo.gq/repo/mratwork/release/neutral/noarch/
-mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-release-neutral-noarch-mirrors.txt
+#mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-release-neutral-noarch-mirrors.txt
 enabled=1
 gpgcheck=0
 
 [mratwork-release-neutral-arch]
 name=MRatWork - release-neutral-arch
 baseurl=https://kloxo.gq/repo/mratwork/release/neutral/$basearch/
-mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-release-neutral-$basearch-mirrors.txt
+#mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-release-neutral-$basearch-mirrors.txt
 enabled=0
 gpgcheck=0
 
 [mratwork-release-version-noarch]
 name=MRatWork - release-version-noarch
 baseurl=https://kloxo.gq/repo/mratwork/release/centos$releasever/noarch/
-mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-release-centos$releasever-noarch-mirrors.txt
+#mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-release-centos$releasever-noarch-mirrors.txt
 enabled=0
 gpgcheck=0
 
 [mratwork-release-version-arch]
 name=MRatWork - release-version-arch
 baseurl=https://kloxo.gq/repo/mratwork/release/centos$releasever/$basearch/
-mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-release-centos$releasever-$basearch-mirrors.txt
+#mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-release-centos$releasever-$basearch-mirrors.txt
 enabled=1
 gpgcheck=0
 
 [mratwork-testing-neutral-noarch]
 name=MRatWork - testing-neutral-noarch
 baseurl=https://kloxo.gq/repo/mratwork/testing/neutral/noarch/
-mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-testing-neutral-noarch-mirrors.txt
+#mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-testing-neutral-noarch-mirrors.txt
 enabled=0
 gpgcheck=0
 
 [mratwork-testing-neutral-arch]
 name=MRatWork - testing-neutral-arch
 baseurl=https://kloxo.gq/repo/mratwork/testing/neutral/$basearch/
-mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-testing-neutral-$basearch-mirrors.txt
+#mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-testing-neutral-$basearch-mirrors.txt
 enabled=0
 gpgcheck=0
 
 [mratwork-testing-version-noarch]
 name=MRatWork - testing-version-noarch
 baseurl=https://kloxo.gq/repo/mratwork/testing/centos$releasever/noarch/
-mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-testing-centos$releasever-noarch-mirrors.txt
+#mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-testing-centos$releasever-noarch-mirrors.txt
 enabled=0
 gpgcheck=0
 
 [mratwork-testing-version-arch]
 name=MRatWork - testing-version-arch
 baseurl=https://kloxo.gq/repo/mratwork/testing/centos$releasever/$basearch/
-mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-testing-centos$releasever-$basearch-mirrors.txt
+#mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-testing-centos$releasever-$basearch-mirrors.txt
 enabled=0
 gpgcheck=0
 
 [mratwork-srpms]
 name=MRatWork - srpms
 baseurl=https://kloxo.gq/repo/mratwork/SRPMS/
-mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-SRPMS-mirrors.txt
+#mirrorlist=https://github.com/mustafaramadhan/rpms/raw/master/mratwork/mirror/mratwork-SRPMS-mirrors.txt
 enabled=0
 gpgcheck=0
 
